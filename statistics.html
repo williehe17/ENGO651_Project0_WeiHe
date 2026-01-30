@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premier League 2024/25 - Statistics</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">PL 2024/25</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="standings.html">Standings</a></li>
+      <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+      <li class="nav-item active"><a class="nav-link" href="statistics.html">Statistics</a></li>
+      <li class="nav-item"><a class="nav-link" href="matches.html">Classic Matches</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container mt-4">
+  <h1 class="section-title">Season Statistics</h1>
+  <p class="text-muted">
+    This page shows the top scorers, top assist providers, and key team statistics from the 2024/25 Premier League season.
+  </p>
+<div class="row">
+
+  <!-- Top Scorers Table -->
+  <div class="col-md-6">
+    <h4>Top Scorers (Goals Only)</h4>
+
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Player</th>
+          <th>Club</th>
+          <th>Goals</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Mohamed Salah</td><td>Liverpool</td><td>29</td></tr>
+        <tr><td>2</td><td>Alexander Isak</td><td>Newcastle United</td><td>23</td></tr>
+        <tr><td>3</td><td>Erling Haaland</td><td>Manchester City</td><td>22</td></tr>
+        <tr><td>4</td><td>Chris Wood</td><td>Nottingham Forest</td><td>20</td></tr>
+        <tr><td>4</td><td>Yoane Wissa</td><td>Brentford</td><td>20</td></tr>
+        <tr><td>6</td><td>Ollie Watkins</td><td>Aston Villa</td><td>16</td></tr>
+        <tr><td>7</td><td>Matheus Cunha</td><td>Wolves</td><td>15</td></tr>
+        <tr><td>7</td><td>Cole Palmer</td><td>Chelsea</td><td>15</td></tr>
+        <tr><td>9</td><td>Julian Alvarez</td><td>Wolves</td><td>14</td></tr>
+        <tr><td>10</td><td>Jørgen Strand Larsen</td><td>Wolves</td><td>14</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Top Assists Table -->
+  <div class="col-md-6">
+    <h4>Top Assists</h4>
+
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Player</th>
+          <th>Club</th>
+          <th>Assists</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Mohamed Salah</td><td>Liverpool</td><td>18</td></tr>
+        <tr><td>2</td><td>Jacob Murphy</td><td>Newcastle United</td><td>12</td></tr>
+        <tr><td>3</td><td>Anthony Elanga</td><td>Nottingham Forest</td><td>11</td></tr>
+        <tr><td>4</td><td>Bruno Fernandes</td><td>Manchester United</td><td>10</td></tr>
+        <tr><td>4</td><td>Harry Wilson</td><td>Fulham</td><td>10</td></tr>
+        <tr><td>4</td><td>Douglas Luiz</td><td>Aston Villa</td><td>10</td></tr>
+        <tr><td>4</td><td>James Maddison</td><td>Brentford</td><td>10</td></tr>
+        <tr><td>4</td><td>Bukayo Saka</td><td>Arsenal</td><td>10</td></tr>
+        <tr><td>9</td><td>Son Heung-min</td><td>Tottenham Hotspur</td><td>9</td></tr>
+        <tr><td>10</td><td>Jarrod Bowen</td><td>West Ham United</td><td>8</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+  <hr class="my-4" />
+
+  <!-- Team statistics -->
+  <h4>Team Statistics</h4>
+  <ul class="checklist">
+    <li>Total teams: <strong>20</strong></li>
+    <li>Matches played per team: <strong>38</strong></li>
+    <li>Team with most goals scored: <strong>Liverpool</strong></li>
+    <li>Team with fewest goals conceded: <strong>Arsenal</strong></li>
+    <li>Champion: <strong>Liverpool</strong></li>
+  </ul>
+
+  <a href="standings.html" class="btn btn-outline-primary btn-sm mt-2">
+    View Standings Table
+  </a>
+
+  <hr class="my-4" />
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Summary</h5>
+      <p class="card-text">
+        Mohamed Salah finished as both the top scorer and the top assist provider of the season.
+        Liverpool recorded the highest number of goals scored, while Arsenal had the strongest defense.
+      </p>
+      <a href="teams.html" class="btn btn-outline-secondary btn-sm">See Teams</a>
+    </div>
+  </div>
+</div>
+
+<footer class="container mt-5">
+  <hr />
+  <p class="text-center text-muted small">ENGO651 Project 0 - Premier League Website</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premier League 2024/25 - Teams</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">PL 2024/25</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="standings.html">Standings</a></li>
+      <li class="nav-item active"><a class="nav-link" href="teams.html">Teams</a></li>
+      <li class="nav-item"><a class="nav-link" href="statistics.html">Statistics</a></li>
+      <li class="nav-item"><a class="nav-link" href="matches.html">Classic Matches</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container mt-4">
+  <h1 class="section-title">Teams Overview</h1>
+  <p class="text-muted">
+    This page highlights different groups of teams from the 2024/25 Premier League season.
+  </p>
+
+  <!-- Bootstrap grid -->
+  <div class="row">
+    <!-- Column 1 -->
+    <div class="col-md-6">
+      <div class="card mb-3 highlight-card">
+        <div class="card-body">
+          <h5 class="card-title">Champions League Teams (Top 5)</h5>
+          <p class="card-text">
+            These teams finished in the top five positions and qualified for the UEFA Champions League.
+          </p>
+          <ul>
+            <li>Liverpool</li>
+            <li>Arsenal</li>
+            <li>Manchester City</li>
+            <li>Chelsea</li>
+            <li>Newcastle United</li>
+          </ul>
+          <a href="standings.html" class="btn btn-outline-primary btn-sm">View Standings</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Relegated Teams (Bottom 3)</h5>
+          <p class="card-text">
+            These teams finished at the bottom of the table and were relegated to the Championship.
+          </p>
+          <ul>
+            <li>Leicester City</li>
+            <li>Ipswich Town</li>
+            <li>Southampton</li>
+          </ul>
+          <a href="standings.html" class="btn btn-outline-danger btn-sm">View Standings</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Another row -->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Surprise Teams</h5>
+          <p class="card-text">
+            Some clubs performed better than expected and became surprise packages of the season.
+          </p>
+          <ul>
+            <li>Nottingham Forest</li>
+            <li>Aston Villa</li>
+            <li>Brighton &amp; Hove Albion</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Big Clubs with Struggles</h5>
+          <p class="card-text">
+            These traditionally strong teams faced challenges during the season.
+          </p>
+          <ul>
+            <li>Manchester United</li>
+            <li>Tottenham Hotspur</li>
+            <li>West Ham United</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p id="teams-note" class="note">
+    Tip: This page uses Bootstrap cards and grid layout to organize team information.
+  </p>
+</div>
+
+<footer class="container mt-5">
+  <hr />
+  <p class="text-center text-muted small">ENGO651 Project 0 - Premier League Website</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
